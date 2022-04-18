@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+          <div class="item">
+            <div class="slideText">Slider # 1</div>
+            <img src="https://bipbap.ru/wp-content/uploads/2017/05/0_15a1ca_7d6d6585_-1-L.jpg" alt="Первый слайд" />
+          </div>
+
+      <div class="item">
+          <div class="slideText">Slider # 2</div>
+          <img src="https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg" alt="Второй слайд" />
+      </div>
+
+      <div class="item">
+          <div class="slideText">Slider # 3</div>
+          <img src="https://bipbap.ru/wp-content/uploads/2017/07/1-campos-amapolas.jpg" alt="Третий слайд" />
+      </div>
+
+      <a class="prev" onclick="minusSlide()">&#10094;</a>
+      <a class="next" onclick="plusSlide()">&#10095;</a>
+
+      </div>
+    </div>
+    <div class="slider-dots">
+      <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+      <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+      <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
